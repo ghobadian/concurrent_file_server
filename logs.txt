@@ -1,0 +1,6 @@
+
+client: 4699745534 has health: 189 with low blood pressure: 7 and high blood pressure: 13
+client: 4699745534 is at latitude: 140.32 and longtitude: 938.43
+client: 4699745534 is at latitude: 140.32 and longtitude: 938.45
+client: 2383420780 has health: 125 with low blood pressure: 7 and high blood pressure: 13
+client: 6051574588 has health: 485 with low blood pressure: 7 and high blood pressure: 13
