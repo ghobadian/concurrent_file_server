@@ -57,22 +57,22 @@ To enhance the functionality of your file server, you can implement a TCP server
 
 1. **Power Off Command**
     - The server sends a command to the smartwatch to power off.
-    - **Message Format**: `[3G*IMEI*POWEROFF]`
+    - **Message Format**: `3G*IMEI*POWEROFF`
     - **Functionality**: Upon receiving this command, the smartwatch will power down.
 
 2. **Find Command**
     - The server sends a command to the smartwatch to help locate it when lost.
-    - **Message Format**: `[3G*IMEI*FIND]`
+    - **Message Format**: `3G*IMEI*FIND`
     - **Functionality**: The smartwatch will start ringing for 30 seconds to help the user locate it.
 
 3. **Health Data Reporting**
     - The smartwatch periodically sends health data to the server.
-    - **Message Format**: `[3G*IMEI*HEALTH*heartrate, blood pressure low, blood pressure high]`
+    - **Message Format**: `3G*IMEI*HEALTH*heartrate, blood pressure low, blood pressure high`
     - **Functionality**: Every 30 seconds, the smartwatch reports its health metrics to the server.
 
 4. **Location Data Reporting**
     - The smartwatch periodically sends its geographic location to the server.
-    - **Message Format**: `[3G*IMEI*UD, lat, lon]`
+    - **Message Format**: `3G*IMEI*UD*lat, lon`
     - **Functionality**: Every 45 seconds, the smartwatch sends its latitude and longitude to the server.
 
 ---
